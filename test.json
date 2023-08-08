@@ -1,0 +1,463 @@
+{
+    "id": 3708,
+    "code": "202308183708",
+    "name": "werwdsf",
+    "flow": {
+        "id": 2848,
+        "tag": "DEFAULT",
+        "group_id": 97,
+        "type": 1,
+        "created_at": "2023-08-18T02:30:04.253+08:00",
+        "updated_at": "2023-08-18T02:30:04.253+08:00",
+        "ticket_types": [],
+        "nodes": [
+            {
+                "node": {
+                    "id": 3878,
+                    "name": "node 1",
+                    "owner": 5,
+                    "role_id": null,
+                    "time_limit_id": 7355,
+                    "users": [],
+                    "processing_time": 7,
+                    "permissions": [
+                        "ADD_ADR",
+                        "UPLOAD_ATTACHMENT",
+                        "COMMENT",
+                        "TRANSFER",
+                        "RETURN",
+                        "HOST_MEETING",
+                        "LIVE_VOTIMG",
+                        "ADD_VOTER",
+                        "HOLD_VOTING",
+                        "MODIFY_DEADLINE"
+                    ],
+                    "created_at": "2023-08-18T02:30:04.500+08:00",
+                    "updated_at": "2023-08-18T02:30:04.500+08:00",
+                    "meeting_members": [
+                        {
+                            "id": 6,
+                            "name": "user",
+                            "employee_id": "user",
+                            "mail": "",
+                            "title": null,
+                            "organization": {
+                                "id": 3,
+                                "ouid": null,
+                                "dn": null,
+                                "name": "CNS2",
+                                "created_at": null,
+                                "updated_at": null
+                            },
+                            "department": {
+                                "id": 2,
+                                "ouid": "sssss",
+                                "dn": "dsss",
+                                "name": "CNS",
+                                "created_at": "2023-06-06T16:37:16.657+08:00",
+                                "updated_at": "2023-06-06T16:37:16.657+08:00"
+                            },
+                            "created_at": "2022-12-22T02:39:13.993+08:00",
+                            "role_name": null,
+                            "role_ids": null
+                        }
+                    ],
+                    "voters": [],
+                    "meeting_roles": [
+                        {
+                            "id": 3,
+                            "name": "測試角色",
+                            "deleteable": true,
+                            "tag": "CUSTOM",
+                            "permissions": null
+                        }
+                    ],
+                    "voting_roles": [
+                        {
+                            "id": 3,
+                            "name": "測試角色",
+                            "deleteable": true,
+                            "tag": "CUSTOM",
+                            "permissions": null
+                        }
+                    ],
+                    "voting_type": 0
+                },
+                "owner": null,
+                "pass_at": null,
+                "deadline": "2023-08-25T00:00:00.000+08:00",
+                "state": 2,
+                "type": 0
+            },
+            {
+                "node": {
+                    "id": 3879,
+                    "name": "test",
+                    "owner": 5,
+                    "role_id": null,
+                    "time_limit_id": 7355,
+                    "users": [],
+                    "processing_time": 2,
+                    "permissions": [
+                        "",
+                        "HOST_MEETING",
+                        "HOLD_VOTING",
+                        "LIVE_VOTIMG",
+                        "ADD_VOTER",
+                        "ADD_PROCESSOR",
+                        "TRANSFER",
+                        "RETURN"
+                    ],
+                    "created_at": "2023-08-18T02:30:04.717+08:00",
+                    "updated_at": "2023-08-18T02:30:04.717+08:00",
+                    "meeting_members": [],
+                    "voters": [],
+                    "meeting_roles": [],
+                    "voting_roles": [],
+                    "voting_type": 0
+                },
+                "owner": null,
+                "pass_at": null,
+                "deadline": null,
+                "state": 3,
+                "type": 0
+            },
+            {
+                "node": {
+                    "id": 3880,
+                    "name": "test3",
+                    "owner": 5,
+                    "role_id": null,
+                    "time_limit_id": 7355,
+                    "users": [],
+                    "processing_time": 5,
+                    "permissions": [
+                        "HOST_MEETING",
+                        "HOLD_VOTING",
+                        "ADD_PROCESSOR",
+                        "RETURN",
+                        "TRANSFER",
+                        "LIVE_VOTIMG"
+                    ],
+                    "created_at": "2023-08-18T02:30:04.797+08:00",
+                    "updated_at": "2023-08-18T02:30:04.797+08:00",
+                    "meeting_members": [],
+                    "voters": [],
+                    "meeting_roles": [],
+                    "voting_roles": [],
+                    "voting_type": 0
+                },
+                "owner": null,
+                "pass_at": null,
+                "deadline": null,
+                "state": 3,
+                "type": 0
+            }
+        ],
+        "closing": {
+            "id": 3881,
+            "method": 2,
+            "owner": 0,
+            "role_id": null,
+            "permissions": [
+                "UPLOAD_ATTACHMENT",
+                "ADD_VOTER",
+                "LIVE_VOTIMG"
+            ],
+            "passing_rate": 50,
+            "pass_at": null,
+            "created_at": "2023-08-18T02:30:04.877+08:00",
+            "updated_at": "2023-08-18T02:30:04.877+08:00",
+            "processing_time": 5,
+            "deadline": null,
+            "notify_users": [
+                {
+                    "id": 6,
+                    "name": "user",
+                    "employee_id": "user",
+                    "mail": "",
+                    "title": null,
+                    "organization": {
+                        "id": 3,
+                        "ouid": null,
+                        "dn": null,
+                        "name": "CNS2",
+                        "created_at": null,
+                        "updated_at": null
+                    },
+                    "department": {
+                        "id": 2,
+                        "ouid": "sssss",
+                        "dn": "dsss",
+                        "name": "CNS",
+                        "created_at": "2023-06-06T16:37:16.657+08:00",
+                        "updated_at": "2023-06-06T16:37:16.657+08:00"
+                    },
+                    "created_at": "2022-12-22T02:39:13.993+08:00",
+                    "role_name": null,
+                    "role_ids": null
+                },
+                {
+                    "id": 7,
+                    "name": "user2",
+                    "employee_id": "user2",
+                    "mail": null,
+                    "title": null,
+                    "organization": {
+                        "id": 3,
+                        "ouid": null,
+                        "dn": null,
+                        "name": "CNS2",
+                        "created_at": null,
+                        "updated_at": null
+                    },
+                    "department": {
+                        "id": 2,
+                        "ouid": "sssss",
+                        "dn": "dsss",
+                        "name": "CNS",
+                        "created_at": "2023-06-06T16:37:16.657+08:00",
+                        "updated_at": "2023-06-06T16:37:16.657+08:00"
+                    },
+                    "created_at": "2023-01-05T02:42:13.727+08:00",
+                    "role_name": null,
+                    "role_ids": null
+                }
+            ],
+            "voters": [
+                {
+                    "id": 12,
+                    "name": "news1",
+                    "employee_id": "news1",
+                    "mail": null,
+                    "title": null,
+                    "organization": {
+                        "id": 3,
+                        "ouid": null,
+                        "dn": null,
+                        "name": "CNS2",
+                        "created_at": null,
+                        "updated_at": null
+                    },
+                    "department": {
+                        "id": 2,
+                        "ouid": "sssss",
+                        "dn": "dsss",
+                        "name": "CNS",
+                        "created_at": "2023-06-06T16:37:16.657+08:00",
+                        "updated_at": "2023-06-06T16:37:16.657+08:00"
+                    },
+                    "created_at": "2023-01-05T07:14:16.273+08:00",
+                    "role_name": null,
+                    "role_ids": null
+                },
+                {
+                    "id": 1021,
+                    "name": "new1",
+                    "employee_id": "new1",
+                    "mail": "",
+                    "title": null,
+                    "organization": {
+                        "id": 3,
+                        "ouid": null,
+                        "dn": null,
+                        "name": "CNS2",
+                        "created_at": null,
+                        "updated_at": null
+                    },
+                    "department": {
+                        "id": 2,
+                        "ouid": "sssss",
+                        "dn": "dsss",
+                        "name": "CNS",
+                        "created_at": "2023-06-06T16:37:16.657+08:00",
+                        "updated_at": "2023-06-06T16:37:16.657+08:00"
+                    },
+                    "created_at": "2023-04-19T09:41:31.983+08:00",
+                    "role_name": null,
+                    "role_ids": null
+                },
+                {
+                    "id": 1022,
+                    "name": "new2",
+                    "employee_id": "new2",
+                    "mail": "",
+                    "title": null,
+                    "organization": {
+                        "id": 3,
+                        "ouid": null,
+                        "dn": null,
+                        "name": "CNS2",
+                        "created_at": null,
+                        "updated_at": null
+                    },
+                    "department": {
+                        "id": 2,
+                        "ouid": "sssss",
+                        "dn": "dsss",
+                        "name": "CNS",
+                        "created_at": "2023-06-06T16:37:16.657+08:00",
+                        "updated_at": "2023-06-06T16:37:16.657+08:00"
+                    },
+                    "created_at": "2023-05-05T07:05:59.520+08:00",
+                    "role_name": null,
+                    "role_ids": null
+                }
+            ],
+            "voting_type": 1,
+            "owner_detail": null
+        },
+        "flow_name": "請假類型"
+    },
+    "ticket_type": [
+        {
+            "id": 15,
+            "name": "事假申請",
+            "description": "dajpfadjspf",
+            "forms": [
+                {
+                    "id": 935,
+                    "name": "事假申請",
+                    "fields": [
+                        {
+                            "id": 1934,
+                            "name": "test notify12",
+                            "mark": "TEST_NOTIFY",
+                            "value": "2023/08/18 14:47:12",
+                            "field_type": 3,
+                            "grid": 6,
+                            "type": null,
+                            "data": {
+                                "time_limit_ids": [],
+                                "notify_description": "",
+                                "notify": false
+                            },
+                            "created_at": "2023-08-18T00:00:00.000+08:00",
+                            "updated_at": "2023-08-18T00:00:00.000+08:00",
+                            "is_required": 0
+                        },
+                        {
+                            "id": 1935,
+                            "name": "d",
+                            "mark": "d",
+                            "value": "asd",
+                            "field_type": 1,
+                            "grid": 12,
+                            "type": null,
+                            "data": {
+                                "placeholder": ""
+                            },
+                            "created_at": "2023-08-18T00:00:00.000+08:00",
+                            "updated_at": "2023-08-18T00:00:00.000+08:00",
+                            "is_required": 0
+                        },
+                        {
+                            "id": 1936,
+                            "name": "測試2",
+                            "mark": "測試3",
+                            "value": "asd",
+                            "field_type": 1,
+                            "grid": 12,
+                            "type": null,
+                            "data": {
+                                "placeholder": "測試4"
+                            },
+                            "created_at": "2023-08-18T00:00:00.000+08:00",
+                            "updated_at": "2023-08-18T00:00:00.000+08:00",
+                            "is_required": 0
+                        }
+                    ],
+                    "created_at": "2023-08-18T05:54:00.867+08:00",
+                    "updated_at": "2023-08-18T05:54:00.867+08:00"
+                },
+                {
+                    "id": 936,
+                    "name": "admin",
+                    "fields": [
+                        {
+                            "id": 1937,
+                            "name": "jjj",
+                            "mark": "jjjj",
+                            "value": "asd",
+                            "field_type": 1,
+                            "grid": 12,
+                            "type": null,
+                            "data": {
+                                "placeholder": ""
+                            },
+                            "created_at": "2023-08-18T00:00:00.000+08:00",
+                            "updated_at": "2023-08-18T00:00:00.000+08:00",
+                            "is_required": 0
+                        },
+                        {
+                            "id": 1938,
+                            "name": "12312",
+                            "mark": "3123123",
+                            "value": "asd",
+                            "field_type": 1,
+                            "grid": 12,
+                            "type": null,
+                            "data": {
+                                "placeholder": "123123123"
+                            },
+                            "created_at": "2023-08-18T00:00:00.000+08:00",
+                            "updated_at": "2023-08-18T00:00:00.000+08:00",
+                            "is_required": 0
+                        }
+                    ],
+                    "created_at": "2023-08-18T05:54:00.870+08:00",
+                    "updated_at": "2023-08-18T05:54:00.870+08:00"
+                }
+            ],
+            "tags": [
+                "新系統",
+                "陸資",
+                "PC軟體書審",
+                "testtt"
+            ],
+            "created_at": "2023-03-27T08:00:00.583+08:00",
+            "updated_at": "2023-08-18T05:54:00.863+08:00"
+        }
+    ],
+    "architects": [],
+    "applicant": {
+        "id": 1,
+        "name": "admin",
+        "employee_id": "admin",
+        "mail": "",
+        "title": null,
+        "organization": {
+            "id": 2,
+            "ouid": "sssss",
+            "dn": "dsss",
+            "name": "CNS",
+            "created_at": "2023-06-06T16:37:16.657+08:00",
+            "updated_at": "2023-06-06T16:37:16.657+08:00"
+        },
+        "department": {
+            "id": 2,
+            "ouid": "sssss",
+            "dn": "dsss",
+            "name": "CNS",
+            "created_at": "2023-06-06T16:37:16.657+08:00",
+            "updated_at": "2023-06-06T16:37:16.657+08:00"
+        },
+        "created_at": "2022-12-20T15:15:25.047+08:00",
+        "role_name": null,
+        "role_ids": null
+    },
+    "description": "",
+    "approved_matters": "",
+    "attachment": {
+        "description": "",
+        "files": []
+    },
+    "self_evaluation": 0,
+    "nfr": 0,
+    "state": 2,
+    "created_at": "2023-08-18T07:07:44.297+08:00",
+    "updated_at": "2023-08-18T07:07:44.977+08:00",
+    "current_node": 3878,
+    "references": [],
+    "meeting_file": null
+}
